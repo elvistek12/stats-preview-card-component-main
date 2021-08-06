@@ -2,7 +2,7 @@ body {
   background-color: hsl(233, 47%, 7%);
 }
 
-.contenedor {
+.contenedor-principal {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
@@ -105,7 +105,7 @@ img {
 }
 
 @media (max-width: 300px) {
-  .contenedor,
+  .contenedor-principal,
   .color {
     width: 220px;
   }
@@ -125,7 +125,7 @@ img {
     height: 100vh;
   }
 
-  .contenedor {
+  .contenedor-principal {
     margin: unset;
     text-align: left;
     -webkit-box-orient: horizontal;
