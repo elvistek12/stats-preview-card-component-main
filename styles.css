@@ -6,9 +6,9 @@ body {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
+  text-align: center;
   background-color: hsl(244, 38%, 16%);
   margin: 20px auto;
-  text-align: center;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,7 +53,7 @@ span {
 }
 
 .parrafo {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.6);
   margin: 15px 30px;
 }
 
@@ -94,12 +94,12 @@ img {
 }
 
 .color {
-  background-color: hsla(277, 61%, 34%, 0.4);
+  background-color: hsla(277, 61%, 34%, 0.6);
   width: 300px;
   height: 250px;
   position: absolute;
   top: 20px;
-  z-index: 30;
+  z-index: 10;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -142,22 +142,23 @@ img {
     height: 400px;
   }
 
-  .contenedor-datos-padre {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+  .titulo {
+    margin: 30px 45px;
+    width: 380px;
   }
 
-  .titulo,
   .parrafo {
-    margin: 30px 45px;
+    margin: 20px 45px 40px;
     width: 380px;
   }
 
   .contenedor-datos-padre {
     margin: 0 30px;
     width: 420px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
